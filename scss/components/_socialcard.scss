@@ -16,7 +16,10 @@ body {
     font-family: "Inter", sans-serif;
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 12%);
-    width: 26%;
+    width: 90%;
+    max-width: 375px;
+    padding: 5px;
+    margin: 15px;
     border-radius: 10px;
 
     .header{
@@ -41,7 +44,7 @@ body {
     }
         .description{
             text-align: center;
-            font-size: 11px;
+            font-size: 14px;
             font-weight: 400;
             margin-top: 10px;
         }
@@ -68,7 +71,7 @@ body {
                     text-decoration: none;
                     list-style: none;
                     border-radius: 5px;
-                    padding: 9px 35px;
+                    padding: 9px 60px;
                     margin: 6px 0;
                     width: 90%;
                     &:last-child{
